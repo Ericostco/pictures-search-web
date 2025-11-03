@@ -1,8 +1,61 @@
-# Getting Started with Create React App
+# Picture Search Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that allows users to search and view pictures. Built with modern React features and clean UI design.
 
-## Available Scripts
+## 🌟 Features
+
+- Dynamic picture search functionality
+- Responsive grid layout for picture display
+- Clean and modern user interface
+- React Router for seamless navigation
+- SCSS for structured styling
+
+## 🛠 Technologies Used
+
+- React.js
+- React Router DOM
+- SCSS/SASS
+- Axios for API calls
+- Modern JavaScript (ES6+)
+
+## 🚀 Getting Started
+
+1. Clone the repository
+   \`\`\`bash
+   git clone [repository URL]
+   \`\`\`
+
+2. Install dependencies
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+3. Start the development server
+   \`\`\`bash
+   npm start
+   \`\`\`
+
+## 📁 Project Structure
+
+\`\`\`
+src/
+├── components/ # Reusable components
+│ ├── Footer.js
+│ ├── Picture.js
+│ └── Search.js
+├── pages/ # Page components
+│ ├── About.js
+│ ├── Homepage.js
+│ └── Page404.js
+├── styles/ # SCSS styles
+│ ├── \_footer.scss
+│ ├── \_nav.scss
+│ ├── \_picture.scss
+│ ├── \_search.scss
+│ └── style.scss
+├── App.js # Main app component
+├── Layout.js # Layout wrapper
+└── index.js # Entry point
 
 In the project directory, you can run:
 
